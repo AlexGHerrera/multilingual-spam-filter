@@ -1,0 +1,10 @@
+scikit-learn
+langdetect
+fasttext
+spacy
+transformers
+pandas
+numpy
+flask
+jupyter
+pytest
