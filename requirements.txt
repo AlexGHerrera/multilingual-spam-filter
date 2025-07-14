@@ -1,10 +1,24 @@
+# Librerías de ciencia de datos
+numpy
+pandas
 scikit-learn
+
+# Procesamiento de lenguaje
+spacy
 langdetect
 fasttext
-spacy
-transformers
-pandas
-numpy
+
+# Frameworks y modelos
+tensorflow==2.11.0       # Compatible con keras==2.11.0
+keras==2.11.0            # Evita Keras 3
+transformers==4.31.0     # Versión estable y compatible con keras 2.x
+torch                    # Para otros modelos de transformers si es necesario
+
+# API y desarrollo web
+fastapi
+uvicorn
+
+# Desarrollo y testing
 flask
 jupyter
 pytest

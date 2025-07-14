@@ -1,6 +1,53 @@
 __pycache__/
 *.pyc
-data/
+# Ignorar archivos y carpetas de datos pesados
+/data/
+!/data/SpamAssassin/
+*.csv
+*.zip
+*.txt
+*.gz
+*.tar
+*.tar.gz
+*.tar.bz2
+*.h5
+*.keras
+*.pkl
+*.npz
+*.npy
+*.ckpt
+*.pt
+*.onnx
+*.bin
+*.model
+*.weights
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+# Ignorar checkpoints y archivos temporales de notebooks
+.ipynb_checkpoints/
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
+# Ignorar archivos de entorno
+.env
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+# Ignorar archivos de test
+/tests/__pycache__/
+/tests/*.pyc
+# Ignorar modelos descargados
+src/*.h5
+src/*.keras
+notebooks/*.h5
+notebooks/*.keras
+# Mantener el directorio de datos SpamAssassin
+!/data/SpamAssassin/
+
 .env
 *.model
 .ipynb_checkpoints/
