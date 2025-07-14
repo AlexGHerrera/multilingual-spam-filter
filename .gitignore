@@ -51,3 +51,7 @@ notebooks/*.keras
 .env
 *.model
 .ipynb_checkpoints/
+
+# Permitir imágenes y visualizaciones en data/img/
+!data/img/
+!data/img/**
